@@ -91,7 +91,7 @@ const init = async () => {
   console.log(`curl localhost:3000/api/users/${ethyl.id}/createFavorite`);
 
   console.log(
-    `curl -X POST localhost:3000/api/users/${ethyl.id}/createFavorite -d '{"skill_id": "${dancing.id}"}' -H 'Content-Type:application/json'`
+    `curl -X POST localhost:3000/api/users/${ethyl.id}/createFavorite -d '{"products_id": "${dancing.id}"}' -H 'Content-Type:application/json'`
   );
   console.log(
     `curl -X DELETE localhost:3000/api/users/${ethyl.id}/createFavorite/${userFavorite[3].id}`
